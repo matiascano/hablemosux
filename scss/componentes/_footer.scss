@@ -1,0 +1,34 @@
+/* Footer */
+footer {
+  background: var(--black) $gradiente;
+  text-align: center;
+  color: var(--white);
+  padding: 4em 1rem 1rem;
+
+  a {
+    text-decoration: none;
+    color: var(--white);
+    
+    &:hover {
+      color: var(--primary-500);
+    }
+  }
+  
+  p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--white);
+  }
+}
+
+/* Redes */
+
+.redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 2rem auto;
+  gap: 1rem;
+}

@@ -1,0 +1,34 @@
+/* Carrusel */
+
+.carousel-item {
+  max-height: 500px;
+  
+  img {
+    width: 100%;
+    aspect-ratio: 16/5;
+    object-fit: cover;
+    place-content: center;
+  }
+}
+
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  text-align: center;
+
+  h3 {
+    color: var(--light);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    color: var(--light);
+    font-size: 1rem;
+  }
+}

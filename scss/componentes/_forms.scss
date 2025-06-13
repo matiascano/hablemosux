@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  
+  .form-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    label {
+      text-align: left;
+    }
+    
+    input {
+      padding: 0.5rem 1rem;
+    }
+  }
+}
+

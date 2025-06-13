@@ -1,0 +1,48 @@
+$variables: (
+  primary-50: #edfcf5,
+  primary-100: #d4f7e5,
+  primary-200: #adedd0,
+  primary-300: #78ddb5,
+  primary-400: #41c696,
+  primary-500: #1daa7b,
+  primary-600: #108b65,
+  primary-700: #0d6f53,
+  primary-800: #0d5843,
+  primary-900: #0c4838,
+
+  gray-50: #f9f9f9,
+  gray-100: #f0f0f0,
+  gray-200: #e0e0e0,
+  gray-300: #c0c0c0,
+  gray-400: #a0a0a0,
+  gray-500: #808080,
+  gray-600: #606060,
+  gray-700: #404040,
+  gray-800: #202020,
+  gray-900: #101010,
+
+  light: #fefefe,
+  dark: #050505,
+);
+
+// Variables
+:root {
+  @each $param, $value in $variables {
+    --#{$param}: #{$value};
+  }
+}
+
+// Clases
+@each $param, $value in $variables {
+  .color-#{$param} {
+    color: #{$value};
+  }
+
+  .bg-#{$param} {
+    background-color: #{$value};
+  }
+
+  .border-#{$param} {
+    border-color: #{$value};
+  }
+}

@@ -1,0 +1,46 @@
+/* Nav */
+nav{
+  ul{
+    li{
+      a{
+        text-decoration: none !important;
+        color: var(--dark) !important;
+        font-weight: 500 !important;
+
+        &:hover {
+          color: var(--primary-500) !important;
+        }
+        &.active {
+          color: var(--primary-500) !important;
+        }
+        &.active:hover {
+          color: var(--primary-500) !important;
+        }
+        &.active:active {
+          color: var(--primary-500) !important;
+        }
+        &.active:focus {
+          color: var(--primary-500) !important;
+        }
+        &.active:visited {
+          color: var(--primary-500) !important;
+        }
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-700);
+  
+  &:hover {
+    color: var(--primary-700);
+    cursor: pointer;
+  }
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
