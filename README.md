@@ -19,9 +19,22 @@ Incluye:
 
 ---
 
+## 🔧 Configuración
+
+### Instalar Node.js (descargar desde el sitio oficial)
+https://nodejs.org/
+
+### Verificar instalación
+node -v
+npm -v
+
+### Instalar Sass globalmente
+npm install -g sass
+
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
 - CSS3 (Flexbox y Grid)
 - [Bootstrap](https://getbootstrap.com/)
-
+- Node
+- Sass
