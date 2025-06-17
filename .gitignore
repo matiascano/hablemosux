@@ -1,3 +1,9 @@
-.DS_Store
+# VSCode
 .vscode/
-./.vsCode/settings.json
+.vscode/*
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
