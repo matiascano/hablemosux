@@ -378,10 +378,19 @@ img {
 .card {
   height: 100%;
   transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 .card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
+}
+.card:hover img {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.02) rotate(0.5deg);
+  filter: grayscale(0);
+}
+.card img {
+  filter: grayscale(0.5);
 }
 .card .card-body {
   display: grid;
