@@ -6,9 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matias Cano",
+  "license": "MIT",
   "dependencies": {
     "sass": "^1.89.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matiascano/hablemosux.git"
+  },
+  "keywords": [
+    "coderhouse",
+    "html5",
+    "sass",
+    "css"
+  ],
+  "bugs": {
+    "url": "https://github.com/matiascano/hablemosux/issues"
+  },
+  "homepage": "https://github.com/matiascano/hablemosux#readme"
 }
