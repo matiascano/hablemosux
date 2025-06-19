@@ -11,6 +11,7 @@ footer {
     
     &:hover {
       color: var(--primary-500);
+      transition: color 0.3s ease-in-out;
     }
   }
   
