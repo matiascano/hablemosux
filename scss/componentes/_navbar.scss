@@ -6,30 +6,25 @@ nav{
         text-decoration: none !important;
         color: var(--dark) !important;
         font-weight: 500 !important;
+        transition: $transition;
 
         &:hover {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
         &.active {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
         &.active:hover {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
         &.active:active {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
         &.active:focus {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
         &.active:visited {
           color: var(--primary-500) !important;
-          transition: color 0.3s ease-in-out;
         }
       }
     }

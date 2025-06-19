@@ -1,11 +1,11 @@
 /* Cards */
 .card {
   height: 100%;
+  transition: $transition;
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-    transition: 0.3s ease-in-out;
   }
   
   .card-body {

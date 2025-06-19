@@ -377,11 +377,11 @@ img {
 /* Cards */
 .card {
   height: 100%;
+  transition: 0.3s ease-in-out;
 }
 .card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
-  transition: 0.3s ease-in-out;
 }
 .card .card-body {
   display: grid;
@@ -492,6 +492,7 @@ nav ul li a {
   text-decoration: none !important;
   color: var(--dark) !important;
   font-weight: 500 !important;
+  transition: 0.3s ease-in-out;
 }
 nav ul li a:hover {
   color: var(--primary-500) !important;
@@ -652,6 +653,7 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--white);
+  transition: 0.3s ease-in-out;
 }
 footer a:hover {
   color: var(--primary-500);
