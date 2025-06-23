@@ -46,4 +46,21 @@
   .contenido {
     padding: 0;
   }
+
+  .card-horizontal {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 1rem !important;
+    width: 90% !important;
+    max-width: 90% !important;
+    margin-inline: auto !important;
+
+    img{
+      width: 100% !important;
+      height: auto !important;
+      max-width: none !important;
+      object-fit: cover  !important;
+    }
+
+  }
 }

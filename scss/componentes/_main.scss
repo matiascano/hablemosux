@@ -1,13 +1,11 @@
 .articulos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 2rem;
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  justify-items: center;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 /* Proyectos */
 .proyectos {

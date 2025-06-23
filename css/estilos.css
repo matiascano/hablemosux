@@ -337,9 +337,7 @@ img {
   max-width: 100%;
 }
 
-.ver-mas,
-.btn-form,
-.btn-white {
+.ver-mas, .btn-form, .btn-white {
   background-color: var(--primary-500);
   border-color: var(--primary-400);
   border-radius: 0.25rem;
@@ -350,21 +348,15 @@ img {
   padding: 0.5rem 1rem;
   transition: 0.3s ease-in-out;
 }
-.ver-mas:hover,
-.btn-form:hover,
-.btn-white:hover {
+.ver-mas:hover, .btn-form:hover, .btn-white:hover {
   background-color: var(--primary-400);
   color: var(--light);
   cursor: pointer;
 }
-.ver-mas:active,
-.btn-form:active,
-.btn-white:active {
+.ver-mas:active, .btn-form:active, .btn-white:active {
   background-color: var(--primary-600);
 }
-.ver-mas:focus,
-.btn-form:focus,
-.btn-white:focus {
+.ver-mas:focus, .btn-form:focus, .btn-white:focus {
   background-color: var(--primary-600);
 }
 
@@ -388,6 +380,19 @@ img {
   height: 100%;
   transition: 0.3s ease-in-out;
   overflow: hidden;
+}
+.card.card-horizontal {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  width: 800px;
+  max-width: 90%;
+}
+.card.card-horizontal img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  object-fit: cover;
 }
 .card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -581,14 +586,10 @@ nav ul li a.active:visited {
 }
 
 .articulos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 2rem;
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  justify-items: center;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Proyectos */
@@ -642,12 +643,7 @@ nav ul li a.active:visited {
 
 /* Canal */
 .canal {
-  background: var(--primary-200)
-    linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(255, 255, 255, 0.3) 100%
-    );
+  background: var(--primary-200) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   text-align: center;
   padding: 4em 1rem;
   display: flex;
@@ -668,12 +664,7 @@ nav ul li a.active:visited {
 
 /* Footer */
 footer {
-  background: var(--black)
-    linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(255, 255, 255, 0.3) 100%
-    );
+  background: var(--black) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   text-align: center;
   color: var(--white);
   padding: 4em 1rem 1rem;
@@ -740,6 +731,20 @@ footer p {
   }
   .contenido {
     padding: 0;
+  }
+  .card-horizontal {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 1rem !important;
+    width: 90% !important;
+    max-width: 90% !important;
+    margin-inline: auto !important;
+  }
+  .card-horizontal img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    object-fit: cover !important;
   }
 }
 
