@@ -1,4 +1,3 @@
-
 .articulos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -17,7 +16,6 @@
   padding: 4em 1rem;
 }
 
-
 /* Escritos */
 .escritos {
   background-color: var(--gray-50);
@@ -27,12 +25,11 @@
   h2 {
     margin-bottom: 2rem;
   }
-  
+
   h3 {
     padding: 1rem;
   }
 }
-
 
 /* Contenido */
 .contenido {
@@ -42,19 +39,18 @@
   padding: 4rem 0;
   display: flex;
   flex-direction: column;
-  
+
   img {
     min-width: 500px;
     height: auto;
     margin-block: 1rem;
     align-self: center;
   }
-  
+
   iframe {
     align-self: center;
   }
 }
-
 
 /* Frase */
 .frase {

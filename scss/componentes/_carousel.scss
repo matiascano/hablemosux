@@ -2,7 +2,7 @@
 
 .carousel-item {
   max-height: 500px;
-  
+
   img {
     width: 100%;
     aspect-ratio: 16/5;
@@ -10,7 +10,6 @@
     place-content: center;
   }
 }
-
 
 .carousel-caption {
   position: absolute;
@@ -26,7 +25,7 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
-  
+
   p {
     color: var(--light);
     font-size: 1rem;

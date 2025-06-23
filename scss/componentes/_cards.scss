@@ -7,31 +7,30 @@
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-    
+
     img {
-        transition: $transition;
-        transform: scale(1.02) rotate(0.5deg);
-        filter: grayscale(0);
-      }
-  
+      transition: $transition;
+      transform: scale(1.02) rotate(0.5deg);
+      filter: grayscale(0);
     }
+  }
 
   img {
-    filter: grayscale(.5);
+    filter: grayscale(0.5);
   }
-  
+
   .card-body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto 1fr;
-  
+
     .card-title,
     .card-text {
       text-align: left;
     }
-    
+
     .card-text {
       margin-block: 0;
     }
-}
+  }
 }

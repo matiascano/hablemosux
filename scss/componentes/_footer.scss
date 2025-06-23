@@ -9,12 +9,12 @@ footer {
     text-decoration: none;
     color: var(--white);
     transition: $transition;
-    
+
     &:hover {
       color: var(--primary-500);
     }
   }
-  
+
   p {
     font-size: 0.8rem;
     font-weight: 400;
