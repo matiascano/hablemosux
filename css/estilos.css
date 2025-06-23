@@ -585,31 +585,40 @@ nav ul li a.active:visited {
   font-size: 4rem;
 }
 
-.articulos-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Proyectos */
 .proyectos {
   background-color: var(--primary-200);
   text-align: center;
   padding: 4em 1rem;
 }
+.proyectos .articulos-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Escritos */
-.escritos {
+.escritos, .index-escritos, .index-proyectos {
   background-color: var(--gray-50);
   text-align: center;
   padding: 4em 1rem;
 }
-.escritos h2 {
+.escritos h2, .index-escritos h2, .index-proyectos h2 {
   margin-bottom: 2rem;
 }
-.escritos h3 {
+.escritos h3, .index-escritos h3, .index-proyectos h3 {
   padding: 1rem;
+}
+.escritos .articulos-grid, .index-escritos .articulos-grid, .index-proyectos .articulos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: stretch;
 }
 
 /* Contenido */

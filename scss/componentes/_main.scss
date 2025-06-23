@@ -1,21 +1,20 @@
-.articulos-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
 /* Proyectos */
 .proyectos {
   background-color: var(--primary-200);
   text-align: center;
   padding: 4em 1rem;
+
+  .articulos-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
+
 /* Escritos */
-.escritos {
+.escritos, .index-escritos, .index-proyectos {
   background-color: var(--gray-50);
   text-align: center;
   padding: 4em 1rem;
@@ -26,6 +25,17 @@
 
   h3 {
     padding: 1rem;
+  }
+
+  .articulos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: stretch;
   }
 }
 
