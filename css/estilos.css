@@ -298,7 +298,8 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-strong, .bold {
+strong,
+.bold {
   font-weight: bold;
 }
 
@@ -336,7 +337,9 @@ img {
   max-width: 100%;
 }
 
-.ver-mas, .btn-form, .btn-white {
+.ver-mas,
+.btn-form,
+.btn-white {
   background-color: var(--primary-500);
   border-color: var(--primary-400);
   border-radius: 0.25rem;
@@ -347,15 +350,21 @@ img {
   padding: 0.5rem 1rem;
   transition: 0.3s ease-in-out;
 }
-.ver-mas:hover, .btn-form:hover, .btn-white:hover {
+.ver-mas:hover,
+.btn-form:hover,
+.btn-white:hover {
   background-color: var(--primary-400);
   color: var(--light);
   cursor: pointer;
 }
-.ver-mas:active, .btn-form:active, .btn-white:active {
+.ver-mas:active,
+.btn-form:active,
+.btn-white:active {
   background-color: var(--primary-600);
 }
-.ver-mas:focus, .btn-form:focus, .btn-white:focus {
+.ver-mas:focus,
+.btn-form:focus,
+.btn-white:focus {
   background-color: var(--primary-600);
 }
 
@@ -633,7 +642,12 @@ nav ul li a.active:visited {
 
 /* Canal */
 .canal {
-  background: var(--primary-200) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: var(--primary-200)
+    linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+    );
   text-align: center;
   padding: 4em 1rem;
   display: flex;
@@ -654,7 +668,12 @@ nav ul li a.active:visited {
 
 /* Footer */
 footer {
-  background: var(--black) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: var(--black)
+    linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+    );
   text-align: center;
   color: var(--white);
   padding: 4em 1rem 1rem;
