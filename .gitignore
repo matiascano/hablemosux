@@ -24,6 +24,7 @@
 ehthumbs.db
 Thumbs.db
 pages/.DS_Store
+img/.DS_Store
 
 # Node modules #
 ##################
