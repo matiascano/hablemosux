@@ -64,7 +64,7 @@
 .frase {
   background-color: var(--primary-50);
   text-align: center;
-  background-color: (--light);
+  background-color: var(--light);
   font-size: 4rem;
   font-weight: 700;
   padding-block: 4rem;
@@ -79,6 +79,12 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+
+  p{
+    color: var(--light);
+    font-size: 1.2rem;
+    max-width: 800px;
+  }
 }
 
 /* Breadcrumb */
