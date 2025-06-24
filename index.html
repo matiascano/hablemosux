@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Meta base -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hablemo UX</title>
+    <!-- SEO -->
+    <title>Hablemos UX | Diseño de Experiencia de Usuario y Usabilidad</title>
+    <meta name="description" content="Explora casos reales de diseño UX/UI, artículos sobre usabilidad, prototipos, pruebas con usuarios y más. Aprende y mejora tu experiencia de usuario con Hablemos UX." />
+    <meta name="keywords" content="UX, UI, diseño de experiencia de usuario, usabilidad, diseño web, prototipos, pruebas de usuario, wireframes" />
+    <meta name="author" content="Hablemos UX" />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <!-- Estilos propios -->
     <link rel="stylesheet" href="./css/estilos.css" />
   </head>
   <body>
@@ -17,7 +24,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-secundario">
         <div class="container-fluid">
-          <a class="navbar-brand color-primary-500" href="#">Hablemos UX</a>
+          <a class="navbar-brand color-primary-500" href="#"><h1>Hablemos UX</h1></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,7 +39,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="#">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/about.html"
@@ -70,12 +77,8 @@
           >Ir al canal de YT</a
         >
         <div>
-          <img src="./img/hero.avif" alt=""Personas colaborando en el diseño de
-          una interfaz de usuario sobre una mesa. Se observan bocetos de
-          wireframes en papel, notas adhesivas de colores con palabras clave
-          como Search, Apply, Aware, un diagrama de flujo de UX y una
-          computadora portátil parcialmente visible. El ambiente refleja una
-          sesión de trabajo en equipo centrada en diseño UX/UI." />
+          <img loading="lazy"src="./img/hero.avif" alt="Personas colaborando en el diseño de una interfaz de usuario..." />
+
         </div>
       </section>
       <!-- Frase -->
@@ -329,13 +332,15 @@
       <form action="#" method="post">
         <div class="form-block">
           <label for="name">Nombre</label>
-          <input type="text" name="name" placeholder="Tu nombre" required />
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Tu nombre" required />
         </div>
         <div class="form-block">
           <label for="email">Correo Electrónico</label>
           <input
             type="email"
+            id="email"
             name="email"
+            autocomplete="email"
             placeholder="Tu correo electrónico"
             required
           />
@@ -345,7 +350,7 @@
       <h2>Síguenos en nuestras redes sociales:</h2>
       <ul class="redes">
         <li>
-          <a href="#">
+          <a href="#" aria-label="Instagram">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -362,7 +367,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" aria-label="YouTube">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -379,7 +384,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" aria-label="X">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -405,3 +410,4 @@
     ></script>
   </body>
 </html>
+

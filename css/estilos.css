@@ -578,7 +578,7 @@ nav ul li a.active:visited {
   object-position: center;
   filter: brightness(0.5);
 }
-.cabecera h2 {
+.cabecera h1 {
   color: var(--primary-200);
   margin-bottom: 1rem;
   z-index: 1;
@@ -652,7 +652,7 @@ nav ul li a.active:visited {
 
 /* Canal */
 .canal {
-  background: var(--primary-200) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: var(--gray-800) linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   text-align: center;
   padding: 4em 1rem;
   display: flex;
