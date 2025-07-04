@@ -9,36 +9,43 @@ nav {
         transition: $transition;
 
         &:hover {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
         &.active {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
         &.active:hover {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
         &.active:active {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
         &.active:focus {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
         &.active:visited {
-          color: var(--primary-500) !important;
+          color: var(--primary-700) !important;
         }
       }
     }
   }
-}
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-700);
+  div {
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
 
-  &:hover {
-    color: var(--primary-700);
-    cursor: pointer;
+      .navbar-brand {
+        &:hover {
+          color: var(--primary-700);
+          cursor: pointer;
+        }
+      }
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+    }
   }
 }
 

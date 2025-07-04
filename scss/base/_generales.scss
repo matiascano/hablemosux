@@ -13,27 +13,25 @@ strong,
   font-weight: bold;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: var(--primary-700);
-}
 h2 {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--primary-400);
+  color: var(--primary-700);
 }
+
 h3 {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--primary-400);
 }
+
 p {
   font-size: 1rem;
   font-weight: 400;
   color: var(--black);
   margin-block: 1lh;
 }
+
 a {
   text-decoration: none;
   color: var(--black);
@@ -41,4 +39,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--primary-700);
 }

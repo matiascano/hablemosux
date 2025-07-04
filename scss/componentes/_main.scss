@@ -1,6 +1,5 @@
 /* Proyectos */
 .proyectos {
-  background-color: var(--primary-200);
   text-align: center;
   padding: 4em 1rem;
 
@@ -9,13 +8,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    a {
+      display: contents;
+    }
   }
 }
 
-
 /* Escritos */
-.escritos, .index-escritos, .index-proyectos {
-  background-color: var(--gray-50);
+.escritos,
+.index-escritos,
+.index-proyectos {
   text-align: center;
   padding: 4em 1rem;
 
@@ -80,7 +83,7 @@
   gap: 1rem;
   align-items: center;
 
-  p{
+  p {
     color: var(--light);
     font-size: 1.2rem;
     max-width: 800px;
