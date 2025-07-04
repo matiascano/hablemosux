@@ -589,7 +589,7 @@ nav div .navbar-brand {
 /* Proyectos */
 .proyectos {
   text-align: center;
-  padding: 4em 1rem;
+  padding: 4em 0;
 }
 .proyectos .articulos-grid {
   display: flex;
@@ -606,7 +606,7 @@ nav div .navbar-brand {
 .index-escritos,
 .index-proyectos {
   text-align: center;
-  padding: 4em 1rem;
+  padding: 4em 0;
 }
 .escritos h2,
 .index-escritos h2,
@@ -629,6 +629,12 @@ nav div .navbar-brand {
   margin: 0 auto;
   justify-items: center;
   align-items: stretch;
+}
+.escritos .articulos-grid a,
+.index-escritos .articulos-grid a,
+.index-proyectos .articulos-grid a {
+  justify-self: baseline;
+  max-width: 85%;
 }
 
 /* Contenido */

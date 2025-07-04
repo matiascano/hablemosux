@@ -1,7 +1,7 @@
 /* Proyectos */
 .proyectos {
   text-align: center;
-  padding: 4em 1rem;
+  padding: 4em 0;
 
   .articulos-grid {
     display: flex;
@@ -20,7 +20,7 @@
 .index-escritos,
 .index-proyectos {
   text-align: center;
-  padding: 4em 1rem;
+  padding: 4em 0;
 
   h2 {
     margin-bottom: 2rem;
@@ -39,6 +39,11 @@
     margin: 0 auto;
     justify-items: center;
     align-items: stretch;
+
+    a {
+      justify-self: baseline;
+      max-width: 85%;
+    }
   }
 }
 
