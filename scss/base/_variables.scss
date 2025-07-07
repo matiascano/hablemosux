@@ -1,4 +1,8 @@
-$gradiente: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+$gradiente: linear-gradient(
+  135deg,
+  rgba(0, 0, 0, 0.3) 0%,
+  rgba(255, 255, 255, 0.3) 100%
+);
 $transition-time: 0.3s;
 $transition-ease: ease-in-out;
 $transition: $transition-time $transition-ease;
