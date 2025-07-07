@@ -745,9 +745,10 @@ footer p {
     aspect-ratio: auto;
     background: none;
   }
-  .cabecera h2 {
+  .cabecera h1 {
     font-size: 2rem;
     color: var(--primary-700);
+    padding-inline: 1rem;
   }
   .cabecera div {
     position: relative;
@@ -761,6 +762,10 @@ footer p {
   }
   .contenido {
     padding: 0;
+  }
+  .contenido h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
   }
   .card-horizontal {
     display: flex !important;
