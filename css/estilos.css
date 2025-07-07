@@ -634,7 +634,7 @@ nav div .navbar-brand {
 .index-escritos .articulos-grid a,
 .index-proyectos .articulos-grid a {
   justify-self: baseline;
-  max-width: 85%;
+  max-width: 100%;
 }
 
 /* Contenido */
